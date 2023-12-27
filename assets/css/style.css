@@ -9,18 +9,27 @@ body {
 
 /* header */
 
+header {
+    position: fixed;
+    top: 0;
+    width: 95%;
+    box-sizing: border-box;
+    z-index: 5;
+    background-color: #EDEAE5;
+    opacity: 0.8;
+}
+
 #navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 3%;
-    margin-top: 10%;
+    padding: 5% 3%;
 }
 
 #menuList {
     display: none;
     flex-direction: column;
-    padding: 3%;
+    padding: 0% 3% 3%;
 }
 
 #menuList a {
@@ -34,6 +43,11 @@ body {
 
 #menuIcon {
     cursor: pointer;
+}
+
+/* main */
+main {
+    margin-top: 15vh;
 }
 
 /* footer */
