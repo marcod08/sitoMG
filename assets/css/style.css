@@ -132,22 +132,19 @@ footer>p {
 
 /* about.html */
 
-#firstBlock,
-#secondBlock {
+.aboutBlock {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 5%;
 }
 
-#firstBlock img,
-#secondBlock img {
+.aboutBlock img {
     max-width: 45%;
     height: auto;
 }
 
-#firstBlock p,
-#secondBlock p {
+.aboutBlock p {
     font-size: 0.8em;
     width: 45%;
 }
