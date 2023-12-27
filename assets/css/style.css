@@ -5,9 +5,15 @@
 body {
     font-size: 1.0rem;
     font-family: 'Montserrat', sans-serif;
-    margin: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
     background-color: #EDEAE5;
     color: #648398;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    box-sizing: border-box;
 }
 
 /* header */
@@ -49,13 +55,13 @@ header {
 
 /* main */
 main {
-    margin-top: 15vh;
+    padding-top: 15vh;
 }
 
 /* footer */
 
 footer {
-    margin-top: 10%;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,7 +87,7 @@ footer>p {
     background-image: url(../images/background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 10%;
+    
 
 }
 
@@ -105,10 +111,6 @@ footer>p {
 
 /* portfolio.html */
 
-#portfolio {
-    margin-top: 10%;
-}
-
 #portfolio h2,
 #aboutMe h2 {
     font-size: 1.8em;
@@ -128,10 +130,6 @@ footer>p {
 }
 
 /* about.html */
-
-#aboutMe {
-    margin-top: 10%;
-}
 
 #firstBlock,
 #secondBlock {
