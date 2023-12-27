@@ -3,6 +3,8 @@
 body {
     font-size: 1.0rem;
     margin: 3%;
+    background-color: #EDEAE5;
+    color: #648398;
 }
 
 /* header */
@@ -23,7 +25,7 @@ body {
 
 #menuList a {
     text-decoration: none;
-    color: black;
+    color: #648398;
     padding-top: 2%;
     padding-bottom: 2%;
     border-bottom: 1px solid black;
@@ -41,7 +43,6 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #D7D7D5;
     padding-top: 10%;
     padding-bottom: 10%;
 }
